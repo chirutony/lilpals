@@ -1,0 +1,170 @@
+.caveat-brush-regular {
+    font-family: 'Caveat Brush', cursive;
+    font-weight: 400; /* Normal weight */
+    font-style: normal; /* Normal style */
+}
+/* Reset margins and padding for body and specific elements */
+/* Universal Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* If you want to apply the font to specific elements, like headers or paragraphs */
+h1, h2, h3, p {
+    font-family: 'Caveat Brush', cursive;
+}
+
+.backgroundi{
+    background-image: url('plimages/image\ 6.png');
+    background-size: cover; /* Ensure the image covers the header */
+    background-position: center; /* Center the image in the header */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    height: 500px; /* Set the height of the header */
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center items vertically */
+    justify-content: space-between; /* Space items between left and right */
+    color: white; /* Optional: text color for contrast */
+}
+.left {
+    position: absolute; /* Absolute positioning for the logo container */
+    top: 0; /* Align to the top */
+    left: 0; /* Align to the left */
+    padding: 10px; /* Optional padding around the logo */
+}
+.left img{
+    height: 100px;
+    }
+
+/* Optional: Add styles for the right section 
+
+
+.right {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+/* Outer golden rectangle */
+.outer-nav {
+    background-color: #ffda8a; /* Golden color */
+    padding: 7px;
+    border-radius: 200px;
+    font-family: 'Caveat Brush', cursive;
+    position: absolute; /* Position it absolutely within the header */
+    top: 10px; /* Adjust the vertical position */
+    right: 10px; /* Align to the right corner */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Inner white rectangle with shadow effect */
+.inner-nav {
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+    background-color: #FFFFFF; /* White background */
+    padding: 10px 10px;
+    font-family: 'Caveat Brush', cursive;
+    border-radius: 200px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); /* Shadow for floating effect */
+    z-index: 1; /* Ensure it's above the outer rectangle */
+}
+
+.inner-nav li {
+    display: inline-block;
+}
+
+.inner-nav a {
+    text-decoration: none;
+    font-family: 'Caveat Brush', cursive;
+    font-weight: bold;
+    font-size: 18px;
+    color: #000; /* Black text */
+    padding: 5px 15px;
+    transition: color 0.3s ease-in-out;
+}
+
+/* Hover effect: From black to golden */
+.inner-nav a:hover {
+    color: #F4A500; /* Change text color on hover */
+}
+
+/* Active link (HOME) styling */
+.inner-nav .active {
+    color: #F4A500;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hhh{
+    margin-top: 350px;
+}
+.container{
+    background: linear-gradient(to bottom, #B1AFFF, #B6CCFF, #F7F7F7);
+    background-size: cover; /* Ensure the image covers the header */
+    background-position: center; /* Center the image in the header */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    height: 1500px; /* Set the height of the header */
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center items vertically */
+    justify-content: space-between; /* Space items between left and right */
+}
+
+.container {
+    width: 120%;
+    padding: 20px;
+}
+
+.program {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.program-content {
+    width: 50%;
+    padding: 10px;
+}
+
+.program-content h2 {
+    font-size: 24px;
+    color: #4e54c8;
+}
+
+.program-content p {
+    margin: 10px 0;
+    color: #555;
+}
+
+.image-container {
+width: 40%;
+    text-align: center;
+}
+
+.program-image {
+    width: 100px;
+    height: auto;
+}
+
+.cloud-image {
+    width: 200px;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .program {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .program-content, .image-container {
+        width: 100%;
+    }
+}

@@ -1,0 +1,169 @@
+
+
+
+
+
+.caveat-brush-regular {
+    font-family: 'Caveat Brush', cursive;
+    font-weight: 400; /* Normal weight */
+    font-style: normal; /* Normal style */
+}
+
+/* If you want to apply the font to specific elements, like headers or paragraphs */
+h1, h2, h3, p {
+    font-family: 'Caveat Brush', cursive;
+}
+.left {
+    position: absolute; /* Absolute positioning for the logo container */
+    top: 0; /* Align to the top */
+    left: 0; /* Align to the left */
+    padding: 10px; /* Optional padding around the logo */
+}
+.left img{
+    height: 100px;
+    }
+    .backgroundi{
+        background-color: beige;
+        background-size: cover; /* Ensure the image covers the header */
+        background-position: center; /* Center the image in the header */
+        background-repeat: no-repeat; /* Prevent the image from repeating */
+        height: 500px; /* Set the height of the header */
+        display: flex; /* Use flexbox for layout */
+        align-items: center; /* Center items vertically */
+        justify-content: space-between; /* Space items between left and right */
+        color: white; /* Optional: text color for contrast */
+    }
+.outer-nav {
+    background-color: #ffda8a; /* Golden color */
+    padding: 7px;
+    border-radius: 200px;
+    font-family: 'Caveat Brush', cursive;
+    position: absolute; /* Position it absolutely within the header */
+    top: 10px; /* Adjust the vertical position */
+    right: 10px; /* Align to the right corner */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Inner white rectangle with shadow effect */
+.inner-nav {
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+    background-color: #FFFFFF; /* White background */
+    padding: 10px 10px;
+    font-family: 'Caveat Brush', cursive;
+    border-radius: 200px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); /* Shadow for floating effect */
+    z-index: 1; /* Ensure it's above the outer rectangle */
+}
+
+.inner-nav li {
+    display: inline-block;
+}
+
+.inner-nav a {
+    text-decoration: none;
+    font-family: 'Caveat Brush', cursive;
+    font-weight: bold;
+    font-size: 18px;
+    color: #000; /* Black text */
+    padding: 5px 15px;
+    transition: color 0.3s ease-in-out;
+}
+
+/* Hover effect: From black to golden */
+.inner-nav a:hover {
+    color: #F4A500; /* Change text color on hover */
+}
+
+/* Active link (HOME) styling */
+.inner-nav .active {
+    color: #F4A500;
+}
+.cent{
+    margin-left: 600px;
+    color: #F4A500;
+    font-size: xx-large;
+}
+.h1a{
+
+    margin-left: 600px;
+    font-size: xx-large
+}
+.color1{
+    color: aqua;
+}
+.color2{
+    color: #000;
+}
+.color3{
+    color: #F4A500;
+}
+.color4{
+    color: rgb(49, 162, 29);
+}
+.color5{
+    color: rgb(38, 120, 192);
+}
+.color6{
+    color: rgb(44, 159, 159);
+}
+.color7{
+    color: rgb(215, 109, 130);
+}
+.ppp{
+        text-align: left; /* Align text to the left */
+        margin: 20px; /* Add some space around the paragraph */
+        font-size: 16px; /* Adjust font size */
+        line-height: 1.6; /* Improve readability with line height */
+        color: #667BC6; /* Black text for readability */
+        max-width: 700px;
+}
+.backgroundf{
+    background-color: beige;
+    background-size: cover; /* Ensure the image covers the header */
+    background-position: center; /* Center the image in the header */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    height: 500px; /* Set the height of the header */
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center items vertically */
+    justify-content: space-between; /* Space items between left and right */
+    color: white; /* Optional: text color for contrast */
+}
+.pvr{
+    text-align: center;
+    font-size: 25px; /* Adjust font size */
+    color: #667BC6; /* Black text for readability */
+    max-width: 900px;
+}
+.content-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: beige;
+}
+
+.image-container {
+    flex: 1;
+}
+
+.text-container {
+    flex: 1;
+    padding-left: 20px;
+    text-align: left;
+}
+
+.pgr {
+    font-size: 25px;
+    color: #667BC6;
+    max-width: 900px;
+}
+
+.imgg {
+    width: 100%;
+    max-width: 500px; /* Adjust this to control the image size */
+    height: auto;
+}
+

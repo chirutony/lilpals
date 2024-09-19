@@ -1,0 +1,219 @@
+.caveat-brush-regular {
+    font-family: 'Caveat Brush', cursive;
+    font-weight: 400; /* Normal weight */
+    font-style: normal; /* Normal style */
+}
+
+/* If you want to apply the font to specific elements, like headers or paragraphs */
+h1, h2, h3, p {
+    font-family: 'Caveat Brush', cursive;
+}
+
+.backgroundi{
+    background-image: url(plimages/image\ 12.png); /* Path to your background image */
+    background-size: cover; /* Ensure the image covers the header */
+    background-position: center; /* Center the image in the header */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    height: 650px; /* Set the height of the header */
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center items vertically */
+    justify-content: space-between; /* Space items between left and right */
+    color: white; /* Optional: text color for contrast */
+}
+.left {
+    position: absolute; /* Absolute positioning for the logo container */
+    top: 0; /* Align to the top */
+    left: 0; /* Align to the left */
+    padding: 10px; /* Optional padding around the logo */
+}
+.left img{
+    height: 100px;
+    }
+
+/* Optional: Add styles for the right section 
+
+
+.right {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+/* Outer golden rectangle */
+.outer-nav {
+    background-color: #ffda8a; /* Golden color */
+    padding: 7px;
+    border-radius: 200px;
+    font-family: 'Caveat Brush', cursive;
+    position: absolute; /* Position it absolutely within the header */
+    top: 10px; /* Adjust the vertical position */
+    right: 10px; /* Align to the right corner */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Inner white rectangle with shadow effect */
+.inner-nav {
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+    background-color: #FFFFFF; /* White background */
+    padding: 10px 10px;
+    font-family: 'Caveat Brush', cursive;
+    border-radius: 200px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); /* Shadow for floating effect */
+    z-index: 1; /* Ensure it's above the outer rectangle */
+}
+
+.inner-nav li {
+    display: inline-block;
+}
+
+.inner-nav a {
+    text-decoration: none;
+    font-family: 'Caveat Brush', cursive;
+    font-weight: bold;
+    font-size: 18px;
+    color: #000; /* Black text */
+    padding: 5px 15px;
+    transition: color 0.3s ease-in-out;
+}
+
+/* Hover effect: From black to golden */
+.inner-nav a:hover {
+    color: #F4A500; /* Change text color on hover */
+}
+
+/* Active link (HOME) styling */
+.inner-nav .active {
+    color: #F4A500;
+}
+.register-form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin-top: 30px;
+}
+
+.register-form h2 {
+    font-family: 'Caveat Brush', cursive;
+    font-size: 24px;
+    color: #e84946;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.register-form input,
+.register-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.register-form button {
+    background-color: #f4a5a1;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.register-form button:hover {
+    background-color: #e84946;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.admission-process {
+    background: linear-gradient(180deg, #ff91b7 0%, #ff1379 100%); /* Gradient background */
+    padding: 40px;
+    color: white;
+    text-align: center;
+}
+
+.header {
+    font-family: 'Caveat Brush', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.header h1 {
+    font-size: 36px;
+}
+
+.header .check-icon {
+    width: 50px; /* Adjust this size as per your icon */
+}
+
+.step-container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.step {
+    width: 40%;
+    text-align: center;
+}
+
+.pentagon {
+    width: 150px;
+    margin-bottom: 15px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2); /* Shadow for the pentagon images */
+}
+
+.step-text h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-family: 'Caveat Brush', cursive;
+}
+
+.step-text p {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.footer {
+    font-family: 'Caveat Brush', cursive;
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+.footer p {
+    margin-bottom: 10px;
+}
+.gar{
+    top: 0;
+    left: 0;
+}
+.scr{
+    width: 400px;
+    height: 100px;
+}
+.can{
+    width: 400px;
+    height: 100px;
+    
+}
